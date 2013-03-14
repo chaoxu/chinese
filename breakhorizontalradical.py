@@ -21,7 +21,7 @@ for c in s:
   w = ""+c;
   for l in t:
     v = l.pop(0)
-    if v==twocomp or v==threecomp :
+    if (v==twocomp and len(l) == 2) or (v==threecomp and len(l)==3):
       w = ''.join(map(get_first,l));
       break;
   result+=w
