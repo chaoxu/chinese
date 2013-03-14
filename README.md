@@ -31,6 +31,6 @@ The code is ugly, because it's not Haskell.
 ###Example:
 
  ```bash
- ./cjk.py 你好吗Pepper~
+ ./breakhorizontalradical.py 你好吗Pepper~
  ```
 Output: `亻尔女子口马Pepper~`
