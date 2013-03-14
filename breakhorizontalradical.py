@@ -8,7 +8,7 @@ def get_first(list):
 
 twocomp   = u'⿰'
 threecomp = u'⿲'
-s         = u"郦"
+s         = u"郦橙"
 
 if len(sys.argv)>1 :
   s = sys.argv[1].decode('UTF-8')
