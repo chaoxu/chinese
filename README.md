@@ -16,6 +16,7 @@ Pick a chengyu with "日" as one of the characters, and highlight it with quotes
  sed -n 's/日/"日"/p' chengyu.txt | sort --random-sort | head -n 1
  ```
 Output: `出头之"日"`
+
 _Note: `sort --random-sort` doesn't work on machines without `gnu-coreutils`._
 
 节操尽失.
