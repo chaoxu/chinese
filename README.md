@@ -24,6 +24,9 @@ _Note: `sort --random-sort` doesn't work on machines without `gnu-coreutils`._
 This program will break the input Chinese characters into radicals if the 
 corresponding [ideographic description character](http://www.unicode.org/charts/PDF/U2FF0.pdf) is ⿰ or ⿲.
 
+The library requires [cjklib](http://cjklib.org/), and of course, python. 
+The code is ugly, because it's not Haskell.
+
 ###Example:
 
  ```bash
